@@ -23,19 +23,45 @@ font-family: "Spirax", sans-serif;*/
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
-article {
+
+
+article.box-1 h1 {
     color: darkred;
-    font-size: 2rem; 
+    font-size: 4rem;
+    padding-top: 100px; 
+    font-family: "Spirax", sans-serif;
+    
+}
+
+article.box-1 p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-top: 100px; 
+    background-color: rgba(139, 0, 0, 0.7);
+}
+
+article ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+}
+
+article li {
+    
+    font-size: 1.5rem;
+    color: whitesmoke
+}
 
 
+article.box-2 {
+    background-color: aquamarine;
 }
 
 nav {
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
     width: 100%;
@@ -45,9 +71,7 @@ nav {
 }
 
 nav .link {
-    
     color: whitesmoke;
-    text-align: center;
     top: 0;
     font-family: "Spirax", sans-serif;
     font-size: 2.5rem;
@@ -60,6 +84,7 @@ section.hot{
     background-image: url("assets/hot.jpg");
     font-size: 2rem; 
 }
+ 
 
 
 section.juicy {
@@ -73,11 +98,8 @@ section.cosy {
 }
 
 
+
 .header {
     background-color: blueviolet;
 }
 
-
-.button {
-    
-}
