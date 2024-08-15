@@ -2,3 +2,82 @@
 /*
 font-family: "Poiret One", sans-serif;
 font-family: "Spirax", sans-serif;*/
+
+/* (selector)a{(property)background-color:(value)yellow;} */
+
+/* direkt referens */
+
+/* ref till spec klass */
+
+/* ref till spec id */
+
+/*
+.link  => verkar på alla element av klass link
+.shape => "-------"  shape
+.link .shape verkar på alla element som har båda klasserna
+
+/* specificitet */
+* {
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+
+main {
+    margin-top: 50px;
+}
+
+article {
+    color: darkred;
+    font-size: 2rem; 
+
+
+}
+
+nav {
+    overflow: hidden;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    float: center;
+}
+
+nav .link {
+    
+    color: whitesmoke;
+    text-align: center;
+    top: 0;
+    font-family: "Spirax", sans-serif;
+    font-size: 2.5rem;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+section.hot{
+    background-image: url("assets/hot.jpg");
+    font-size: 2rem; 
+}
+
+
+section.juicy {
+    background-image: url("assets/juicy.jpg");
+    font-size: 2rem; 
+}
+
+section.cosy {
+    background-image: url("assets/cosy.jpg");
+    font-size: 2rem; 
+}
+
+
+.header {
+    background-color: blueviolet;
+}
+
+
+.button {
+    
+}
