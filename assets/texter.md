@@ -1,7 +1,7 @@
 ## Hot
 
 ```
-Hot
+
 
 Hot freshly ground black coffee or a cup of exquisite tea?
 
