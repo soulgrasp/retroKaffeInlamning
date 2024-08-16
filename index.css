@@ -44,11 +44,26 @@ article h1 {
     padding-left: 50%;
 }
 
+article {
+    
+}
+
+section {
+}
+
+article.box-red {
+    position: relative;
+    text-align: center;
+}
+
 article.box-red p {
     color: whitesmoke;
     font-size: 1.5rem;
-    padding-top: 100px; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
     background-color: rgba(139, 0, 0, 0.7);
+    width: 60%;
+    
 }
 
 
@@ -57,6 +72,9 @@ article ul {
     background-color: rgba(0, 0, 0, 0.7);
     list-style-type: none;
     margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 article li {
@@ -68,7 +86,9 @@ article li {
 
 article.box-black {
     background-color:rgba(0, 0, 0, 0.6);
-    
+    width: 60%;
+    position: relative;
+    text-align: center;
 }
 
 nav {
