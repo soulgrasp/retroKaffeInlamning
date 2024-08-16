@@ -49,6 +49,17 @@ article {
 }
 
 section {
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1rem solid darkred;
+  height: 100vh;
 }
 
 article.box-red {
@@ -57,11 +68,11 @@ article.box-red {
 }
 
 article.box-red p {
+    background-color: rgba(139, 0, 0, 0.7);
     color: whitesmoke;
     font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 20px; 
-    background-color: rgba(139, 0, 0, 0.7);
     width: 60%;
     
 }
@@ -89,6 +100,7 @@ article.box-black {
     width: 60%;
     position: relative;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 nav {
